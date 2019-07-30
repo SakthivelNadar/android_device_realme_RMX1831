@@ -2,7 +2,8 @@ import /system/etc/init/init.safailnet.rc
 
 service charger /charger
     class charger
-    group system shell input graphics
+    user system
+    group system graphics input
     seclabel u:r:charger:s0
 
  on early-init
