@@ -199,7 +199,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-   media.stagefright.thumbnail.prefer_hw_codecs=true
+   media.stagefright.thumbnail.prefer_hw_codecs=true \
+   debug.stagefright.ccodec=0
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 28
