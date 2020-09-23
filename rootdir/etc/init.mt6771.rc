@@ -18,6 +18,9 @@ on init
     # without framework support it creates all sorts of problems. Disable it.
     setprop persist.vendor.mtk.volte.enable 0
     setprop persist.vendor.mtk_ct_volte_support 0
+
+    # BPF
+    setprop ro.kernel.ebpf.supported true
     
     # Custom overrides that need to happen right on boot
     # Override vendor fstab
