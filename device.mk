@@ -66,6 +66,10 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
 
+# APNs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.mt6771.rc \
