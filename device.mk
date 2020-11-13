@@ -150,6 +150,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RealmeParts
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # KPOC
 PRODUCT_PACKAGES += \
     libsuspend
