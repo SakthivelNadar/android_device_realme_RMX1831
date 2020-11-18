@@ -249,6 +249,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     ImsInit
 
+# RCS
+PRODUCT_PACKAGES += \
+    RcsService
+
 $(call inherit-product, vendor/realme/RMX1831/RMX1831-vendor.mk)
 
 
