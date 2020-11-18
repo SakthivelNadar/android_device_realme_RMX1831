@@ -245,4 +245,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.dbg.wfc_avail_ovr=1 \
     telephony.lteOnCdmaDevice=1
 
+# ImsInit hack
+PRODUCT_PACKAGES += \
+    ImsInit
+
 $(call inherit-product, vendor/realme/RMX1831/RMX1831-vendor.mk)
+
+
