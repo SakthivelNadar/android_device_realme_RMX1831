@@ -193,4 +193,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_TARGET_VNDK_VERSION := 28
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
+# ImsInit hack
+PRODUCT_PACKAGES += \
+    ImsInit
+
 $(call inherit-product, vendor/realme/RMX1831/RMX1831-vendor.mk)
+
+
