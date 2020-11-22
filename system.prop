@@ -30,6 +30,9 @@ ro.mediatek.wlan.wsc=1
 ro.mediatek.wlan.p2p=1
 # MTK, mtk03034 20110318}
 
+# Camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
+
 # MTK, mtk03034, 20101213 {
 mediatek.wlan.ctia=0
 # MTK, mtk03034 20101213}
