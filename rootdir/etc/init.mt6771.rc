@@ -13,6 +13,9 @@ service charger /charger
 
 on init
    
+    # Force disable ViLTE support
+    setprop persist.vendor.vilte_support 0
+
     # Custom overrides that need to happen right on boot
     # Override vendor fstab
     # We only need it to be overridden before things are mounted
