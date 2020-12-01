@@ -13,8 +13,10 @@ service charger /charger
     write /sys/class/leds/lcd-backlight/trigger "backlight"
     write /sys/class/android_usb/android0/enable 1
 
-on init
-    
+on init  
+    # Force disable ViLTE support
+    setprop persist.vendor.vilte_support 0
+
     # Custom overrides that need to happen right on boot
     # Override vendor fstab
     # We only need it to be overridden before things are mounted
