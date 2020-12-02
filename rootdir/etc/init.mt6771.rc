@@ -70,6 +70,10 @@ on post-fs
     mount none /dev/null vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so bind
     mount none /dev/null vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc bind
 
+    # HACK: Disable OEM Keystore
+    mount none /dev/null vendor/lib64/hw/keystore.mt6771.so bind
+    mount none /dev/null vendor/lib64/hw/keystore.oppo6771_18611.so bind
+
 service set_zram /vendor/bin/sh /system/etc/init/set_zram.sh
     class late_start
     disabled
