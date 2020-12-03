@@ -38,6 +38,6 @@ TARGET_VENDOR := realme
 TARGET_VENDOR_PRODUCT_NAME := RMX1831
 PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200605.001 6392402 release-keys"
     
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RP1A.201105.002/6869500:user/release-keys"
 
 
