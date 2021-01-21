@@ -2011,7 +2011,6 @@ vendor/etc/ecc_list_OP18.xml
 vendor/etc/faceTpl0.rgb32
 vendor/etc/faceTpl1.rgb32
 vendor/etc/file112.wav
-vendor/etc/fstab.mt6771
 vendor/etc/fstb.cfg
 vendor/etc/fteh.cfg
 vendor/etc/gasryuv.model
@@ -2130,7 +2129,6 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/fstab.enableswap
 vendor/lib/android.frameworks.faceservice@1.0.so
 vendor/lib/gc2375h_mipi_raw_IdxMgr.so
 vendor/lib/gc2375h_mipi_raw_tuning.so
