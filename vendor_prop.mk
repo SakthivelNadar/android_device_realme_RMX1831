@@ -201,3 +201,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.camera.mdp.hfg.enable=0 \
     vendor.connsys.driver.ready=no \
     vendor.mtk.vdec.waitkeyframeforplay=1 \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
