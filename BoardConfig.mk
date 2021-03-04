@@ -166,7 +166,4 @@ BOARD_SEPOLICY_VERS := 28.0
 SELINUX_IGNORE_NEVERALLOWS := true
 SELINUX_IGNORE_NEVERALLOWS_ON_USER := true
 
-# Symbols
-TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
-
 -include vendor/realme/RMX1831/BoardConfigVendor.mk
