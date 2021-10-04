@@ -34,6 +34,8 @@ PRODUCT_PACKAGES += \
 
 # Audio policy configuration
 USE_XML_AUDIO_POLICY_CONF := 1
+USE_CUSTOM_AUDIO_POLICY := 0
+
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml
