@@ -195,10 +195,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
    media.stagefright.thumbnail.prefer_hw_codecs=true \
    debug.stagefright.ccodec=0
 
-# Do not spin up a separate process for the network stack, use an in-process APK.
-PRODUCT_PACKAGES += InProcessNetworkStack
-PRODUCT_PACKAGES += com.android.tethering.inprocess
-
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 28
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
